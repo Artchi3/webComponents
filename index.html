@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBCOMP</title>
-    <script src="src/components/CardNews.js"></script>
+    <script src="src/components/CardNews.js" defer></script> 
+    <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 <body>
-        <div class="container">
-            <div class="card">
-                <div class="card__left">
-                    <span>By Artchi3</span>
-                    <a href="#">Drth contata devs</a>
-                    <p>Darth Vader busca Dev com experiencia em components web</p>
-                </div>
-                <div class="card__right">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgczqn0p_Q2yU4lExEm5RMl0tpqAXp0aFjZQ&s" alt="">
-                </div>
-            </div>
-        </div>
-    <card-news></card-news>
-    <card-news></card-news>
-    <card-news></card-news>
-    <card-news></card-news>
+    <div class="container">
+        <card-news
+            autor="Artchi3"
+            title="Darth contrata devs"
+            content="Estrela da morte faz layoffs massivos e busca novos talentos na galaxia, pena que todas as juniors foram xassinadas pelo mesmo"
+            link-url="#"
+            foto="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgczqn0p_Q2yU4lExEm5RMl0tpqAXp0aFjZQ&s"
+            >
+        </card-news> 
+        <card-news
+            autor="Artchi3"
+            title="Imperio contrataca"
+            content="Princesinha chora por seu amante pobre, e o conselho não resolve nada feijoada"
+            link-url="#"
+            foto="https://poltronanerd.com.br/wp-content/uploads/2020/06/padme_l.jpg"
+            >
+        </card-news> 
+    </div>
 </body>
 </html>
